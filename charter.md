@@ -16,7 +16,7 @@
 
 - **Suhtluskanal:** Google Chat ja Google Meet
 - **GitHub repo:** urbanstyle-sales-analytics
-- **Supabase:** SalesAnalytics
+- **Supabase:** Urbanstyle-SalesAnalytics
 - **NotebookLM:** UrbanStyle Sales Analytics
 
 ## KOKKULEPPED
