@@ -7,7 +7,7 @@
 | Sigrid Nieländer | A: GitHub Repo Seadistaja | Windows |
 | Maarja Valmas | B: Supabase Seadistaja | Windows |
 | Marleen Aavere | C: NotebookLM Seadistaja | Windows |
-| Marje Piirisild | D: Team Charter Koostaja | Windows |
+| Marje Piirisild | D: Team Charter Koostaja | Mac |
 
 ## Meie eesmärk
 
