@@ -7,7 +7,7 @@
 |---|---|---|---|
 | 1 | Sigrid Nieländer | Windows | A – GitHub Repo Seadistaja |
 | 2 | Marleen Aavere | Windows | C – NotebookLM Seadistaja |
-| 3 | Marje Piirisild | Mac | D – Team Charter Koostaja |
+| 3 | Marje Piirisild | Mac/Windows | D – Team Charter Koostaja |
 | 4 | Maarja Valmas | Windows | B – Supabase Seadistaja |
 
 **Märkus:** Meeskonnas on neli liiget kuid esimesel koosolekul ja grupitöö ajal osales kolm liiget. Maarja võttis lisaks oma ülesannetele enda peale ka Team Charteri koostamise.
