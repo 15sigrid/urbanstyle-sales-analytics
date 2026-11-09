@@ -39,10 +39,10 @@ Rollid liiguvad igal nädalal ühe koha võrra edasi: A → B → C → D → A.
 
 | Nädal | A | B | C | D |
 |---|---|---|---|---|
-| 1 | Sigrid Nieländer | Maarja Valmas | Marleen Aavere | Marje Piirisild |
-| 2 | Marje Piirisild | Sigrid Nieländer | Maarja Valmas | Marleen Aavere |
-| 3 | Marleen Aavere | Marje Piirisild | Sigrid Nieländer | Maarja Valmas |
-| 4 | Maarja Valmas | Marleen Aavere | Marje Piirisild | Sigrid Nieländer |
+| 0 | Sigrid Nieländer | Maarja Valmas | Marleen Aavere | Marje Piirisild |
+| 1 | Marje Piirisild | Sigrid Nieländer | Maarja Valmas | Marleen Aavere |
+| 2 | Marleen Aavere | Marje Piirisild | Sigrid Nieländer | Maarja Valmas |
+| 3 | Maarja Valmas | Marleen Aavere | Marje Piirisild | Sigrid Nieländer |
 
 ## ALLKIRJAD
 
