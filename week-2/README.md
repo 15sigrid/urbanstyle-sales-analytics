@@ -12,16 +12,16 @@ Kõik muudatused tehti **ainult testkoopiates** (`sales_test`, `customers_test`,
 
 | Domeen | Ridu enne | Leitud probleeme | Ridu pärast puhastamist | Vastutaja |
 |---|---:|---:|---:|---|
-| Sales | 15 234 | [ ] | [ ] | [nimi] (Roll A) |
-| Customers | 3 150 | [ ] | [ ] | [nimi] (Roll B) |
+| Sales | 15 234 | [ ] | [ ] | Marleen (Roll A) |
+| Customers | 3 150 | [ ] | [ ] | Marje (Roll B) |
 | Products | 362 | 38 | [ ] | Sigrid (Roll C) |
-| Ristvalideerimine | – | [ ] | – | [nimi] (Roll D) |
+| Ristvalideerimine | – | [ ] | – | Maarja (Roll D) |
 
 ## 3. Tulemused rollide kaupa
 
 ### 3.1 Sales – müügiandmete puhastamine
 
-**Vastutaja:** [nimi] (Roll A)
+**Vastutaja:** Maarja (Roll A)
 
 | Kontroll | Leitud | Selgitus |
 |---|---:|---|
@@ -36,7 +36,7 @@ Kõik muudatused tehti **ainult testkoopiates** (`sales_test`, `customers_test`,
 
 ### 3.2 Customers – kliendiandmete puhastamine
 
-**Vastutaja:** [nimi] (Roll B)
+**Vastutaja:** Marje (Roll B)
 
 | Kontroll | Leitud | Selgitus |
 |---|---:|---|
@@ -68,7 +68,7 @@ Kõik muudatused tehti **ainult testkoopiates** (`sales_test`, `customers_test`,
 
 ### 3.4 Ristvalideerimine ja kvaliteedikontroll
 
-**Vastutaja:** [nimi] (Roll D)
+**Vastutaja:** Maarja (Roll D)
 
 | Kontroll | Leitud | Selgitus |
 |---|---:|---|
