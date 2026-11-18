@@ -21,7 +21,7 @@ Kõik muudatused tehti **ainult testkoopiates** (`sales_test`, `customers_test`,
 
 ### 3.1 Sales – müügiandmete puhastamine
 
-**Vastutaja:** Maarja (Roll A)
+**Vastutaja:** Marleen (Roll A)
 
 | Kontroll | Leitud | Selgitus |
 |---|---:|---|
