@@ -14,7 +14,7 @@ Kõik muudatused tehti **ainult testkoopiates** (`sales_test`, `customers_test`,
 |---|---:|---:|---:|---|
 | Sales | 15 234 | [ ] | [ ] | Marleen (Roll A) |
 | Customers | 3 150 | [ ] | [ ] | Marje (Roll B) |
-| Products | 362 | 38 | [ ] | Sigrid (Roll C) |
+| Products | 362 | 38 | 350 | Sigrid (Roll C) |
 | Ristvalideerimine | – | [ ] | – | Maarja (Roll D) |
 
 ## 3. Tulemused rollide kaupa
@@ -55,7 +55,7 @@ Kõik muudatused tehti **ainult testkoopiates** (`sales_test`, `customers_test`,
 
 | Kontroll | Leitud | Selgitus |
 |---|---:|---|
-| Duplikaatsed tootenimed | 12 | Sama nimi 2 korda, koopiad ID-dega 1351–1362 |
+| Duplikaatsed tootenimed | 12 | Sama nimi 2 korda, duplikaadid ID-dega 1351–1362 on kustutatud products_test-ist, tabelis nüüd 350 rida |
 | NULL nimi / kategooria / hinnad | 0 | Kriitilised väljad on täidetud |
 | Negatiivne või äärmuslik jaehind | 0 | Kalleim toode 434,08 € |
 | Ebajärjekindlad kategooriad | 0 | 5 kategooriat, igaüks ühes kirjapildis |
@@ -64,7 +64,9 @@ Kõik muudatused tehti **ainult testkoopiates** (`sales_test`, `customers_test`,
 
 **Peamine leid:** 8 toote jaehind on omahinnast madalam. Vajab äripoole kontrolli, kas tegu on andmevea või tegeliku kahjumiga müügiga.
 
-**Soovitus:** Eemaldada 12 duplikaattoodet ja kontrollida kahjumiga hindadega tooteid enne marginaalianalüüsi.
+**Soovitus:** Viia duplikaatide eemaldamine originaaltabelisse ja kontrollida kahjumiga hindadega tooteid enne marginaalianalüüsi.
+
+**Duplikaatide kustutamine:** Duplikaadid on products_test-ist kustutatud ja kontrollitud: alles 350 rida, korduvaid tootenimesid 0. Enne kustutamist kontrolliti, et ükski müük ei viita duplikaatidele.
 
 ### 3.4 Ristvalideerimine ja kvaliteedikontroll
 
