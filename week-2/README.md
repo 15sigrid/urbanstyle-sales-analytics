@@ -29,7 +29,6 @@ Kõik muudatused tehti **ainult testkoopiates** (`sales_test`, `customers_test`,
 | NULL väärtused | 1 487 | Puuduv customer_id; pärast duplikaatide eemaldamist 988. Külalisostud, mitte viga – read säilitati |
 | Võimatud kuupäevad | 50 | Müügid pärast andmete lõppkuupäeva 2025-02-28 (tuleviku kuupäevi 0). Märgistati, ei kustutatud |
 | Hilised kuupäevad pärast duplikaatide eemaldamist | 32 | Jäetakse analüüsist välja; analüüsiks sobib 10 086 rida |
-| Lisaleid: müügisumma ≠ jaehind × kogus | 664 | Erinevus > 1 €. Ei tähenda viga, hinnad vajavad täiendavat kontrolli (edasijõudnute tase) |
 
 **Peamine leid:** Duplikaadid moonutasid varasemates aruannetes müügitulu ja tehingute arvu – ligikaudu iga kolmas rida oli kordus.
 
@@ -81,6 +80,7 @@ Kõik muudatused tehti **ainult testkoopiates** (`sales_test`, `customers_test`,
 | Müügid olematule tootele | 0 | Kõik müügitabeli tooteviited vastasid olemasolevatele toodetele. |
 | Kliendid, kes pole ostnud | 592 | 592 kliendil puudusid ostutehingud. |
 | Tooted, mida pole müüdud | 12 | 12 toodet ei olnud müügitabelis kordagi esindatud. |
+| Lisaleid: müügisumma ≠ jaehind × kogus | 664 | Erinevus > 1 €. Ei tähenda viga, hinnad vajavad täiendavat kontrolli (edasijõudnute tase) |
 
 **Peamine leid:** Müügitabeli kliendi- ja tooteviited olid korras, kuid 592 klienti polnud kunagi ostnud ning 12 toodet polnud kordagi müüdud. Need tulemused vajavad ärilist ülevaatamist kuid ei tähenda automaatselt vigaseid andmeid.
 
