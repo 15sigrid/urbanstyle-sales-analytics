@@ -41,7 +41,7 @@ Kõik muudatused tehti **ainult testkoopiates** (`sales_test`, `customers_test`,
 | Kontroll | Leitud | Selgitus |
 |---|---:|---|
 | Duplikaatsed e-mailid | 130 | Duplikaatsed e-posti aadressid; vajavad edasist käsitlemist |
-| NULL eesnimi / perenimi | – | Nimed standardiseeriti (kirjapilt) |
+| NULL eesnimi / perenimi | 0 | Nimed olemas; standardiseeriti kirjapilt |
 | Ebajärjekindlad linnanimed | 252 | 54 kirjaviisi → 12 linna |
 | NULL telefon / e-mail | 380 | Puuduv e-posti aadress |
 | NULL loyalty tier | 1 260 | Lojaalsustase teadmata |
@@ -115,14 +115,14 @@ Järgmisel nädalal võiks enne andmete analüüsimist teha kiire kontroll, et d
 
 ## 5. Team Presentation
 
-[Link esitlusele]
+- Meeskonna esitlus (Google Slides) https://docs.google.com/presentation/d/1qQ7wK_4pNYztKWZQMCtan6fLj89MBDSxOG7baWZOtis/edit?usp=sharing
 
 ## 6. Individual Portfolios
 
 Iga liikme isiklikus portfoolios on tema puhastamisskript (`week2_[domeen]_cleaning.sql`) ja README.
 
-- **Roll A – [nimi]:** [GitHubi link]
-- **Roll B – [nimi]:** [GitHubi link]
+- **Roll A – Marleen:** [GitHubi link](https://github.com/marleen-aavere/daca-portfolio/blob/main/week-2/team_sales_analytics.md)
+- **Roll B – Marje:** [GitHubi link](https://github.com/marjep1/daca-portfolio/tree/main/portfolio/week-2/team)
 - **Roll C – Sigrid:** [GitHubi portfoolio](https://github.com/15sigrid/data-analyst-portfolio/tree/main/week-2)
 - **Roll D – Maarja:** [GitHubi link](https://github.com/maarjavalmas/daca-portfoolio/tree/main/week-2)
 
