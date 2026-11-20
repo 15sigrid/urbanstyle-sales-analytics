@@ -15,7 +15,7 @@ Kõik muudatused tehti **ainult testkoopiates** (`sales_test`, `customers_test`,
 | Sales | 15 234 | 6 653 | 10 118 | Marleen (Roll A) |
 | Customers | 3 150 | 2 022 | 3 150 | Marje (Roll B) |
 | Products | 362 | 38 | 350 | Sigrid (Roll C) |
-| Ristvalideerimine | – | [ ] | – | Maarja (Roll D) |
+| Ristvalideerimine | – | 604 | – | Maarja (Roll D) |
 
 ## 3. Tulemused rollide kaupa
 
@@ -87,7 +87,7 @@ Kõik muudatused tehti **ainult testkoopiates** (`sales_test`, `customers_test`,
 ## 4. Team Synthesis – ühine kokkuvõte
 
 ### Suurim üllatus
-[1–2 lauset andmete kohta]
+12 toodet, mida pole kordagi müüdud (Roll D), on samad 12 duplikaattoodet (ID-d 1351–1362), mille leidis Roll C. Duplikaadid said uued ID-d, seepärast neile müüke ei viita – kaks eri kontrolli kinnitasid sama leidu.
 
 ### Soovitus Toomasele
 1. [ ]
