@@ -97,9 +97,16 @@ Kõik muudatused tehti **ainult testkoopiates** (`sales_test`, `customers_test`,
 2. [ ]
 
 ### Osakondade sild
-**Meie osakond:** [Müük]
-**Number enne → pärast puhastamist:** [nt müügitulu 4 374 231 € → 2 909 178 €]
-**Mida see osakonnale tähendab:** [1 lause]
+
+**Meie osakond:** Müük
+
+**Number enne → pärast puhastamist:** tooteid 362 → 350 (12 duplikaati kustutatud products_test-ist, kontrollitud)
+
+**Päring:** `SELECT COUNT(*) AS enne, COUNT(DISTINCT product_name) AS parast FROM products;`
+
+**Mida see osakonnale tähendab:** tootekataloogis oli 12 duplikaatset toodet, tegelik toodete arv on 350, mitte 362.
+
+**Teiselt meeskonnalt:** [Maarja täidab pärast teise meeskonna päringu kontrolli]
 
 ### Kaizen (nano-parendus järgmiseks nädalaks)
 [1 lause]
