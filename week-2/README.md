@@ -12,7 +12,7 @@ Kõik muudatused tehti **ainult testkoopiates** (`sales_test`, `customers_test`,
 
 | Domeen | Ridu enne | Leitud probleeme | Ridu pärast puhastamist | Vastutaja |
 |---|---:|---:|---:|---|
-| Sales | 15 234 | [ ] | [ ] | Marleen (Roll A) |
+| Sales | 15 234 | 6 653 | 10 118 | Marleen (Roll A) |
 | Customers | 3 150 | [ ] | [ ] | Marje (Roll B) |
 | Products | 362 | 38 | 350 | Sigrid (Roll C) |
 | Ristvalideerimine | – | [ ] | – | Maarja (Roll D) |
