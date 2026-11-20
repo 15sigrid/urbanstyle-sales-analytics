@@ -26,7 +26,7 @@ Kõik muudatused tehti **ainult testkoopiates** (`sales_test`, `customers_test`,
 | Kontroll | Leitud | Selgitus |
 |---|---:|---|
 | Duplikaatsed arved | 5 116 | Ligikaudu iga kolmas rida oli kordus; pärast eemaldamist 10 118 unikaalset rida |
-| NULL väärtused | 1 487 | Puuduv customer_id (enne puhastamist ~10%). Külalisostud, mitte viga – read säilitati |
+| NULL väärtused | 1 487 | Puuduv customer_id; pärast duplikaatide eemaldamist 988. Külalisostud, mitte viga – read säilitati |
 | Võimatud kuupäevad | 50 | Müügid pärast andmete lõppkuupäeva 2025-02-28 (tuleviku kuupäevi 0). Märgistati, ei kustutatud |
 | Hilised kuupäevad pärast duplikaatide eemaldamist | 32 | Jäetakse analüüsist välja; analüüsiks sobib 10 086 rida |
 
