@@ -13,7 +13,7 @@ Kõik muudatused tehti **ainult testkoopiates** (`sales_test`, `customers_test`,
 | Domeen | Ridu enne | Leitud probleeme | Ridu pärast puhastamist | Vastutaja |
 |---|---:|---:|---:|---|
 | Sales | 15 234 | 6 653 | 10 118 | Marleen (Roll A) |
-| Customers | 3 150 | [ ] | [ ] | Marje (Roll B) |
+| Customers | 3 150 | 2 022 | 3 150 | Marje (Roll B) |
 | Products | 362 | 38 | 350 | Sigrid (Roll C) |
 | Ristvalideerimine | – | [ ] | – | Maarja (Roll D) |
 
@@ -40,14 +40,15 @@ Kõik muudatused tehti **ainult testkoopiates** (`sales_test`, `customers_test`,
 
 | Kontroll | Leitud | Selgitus |
 |---|---:|---|
-| Duplikaatsed e-mailid | [ ] | |
-| NULL eesnimi / perenimi | [ ] | |
-| Ebajärjekindlad linnanimed | [ ] | |
-| NULL telefon / e-mail | [ ] | |
+| Duplikaatsed e-mailid | 130 | Duplikaatsed e-posti aadressid; vajavad edasist käsitlemist |
+| NULL eesnimi / perenimi | – | Nimed standardiseeriti (kirjapilt) |
+| Ebajärjekindlad linnanimed | 252 | 54 kirjaviisi → 12 linna |
+| NULL telefon / e-mail | 380 | Puuduv e-posti aadress |
+| NULL loyalty tier | 1 260 | Lojaalsustase teadmata |
 
-**Peamine leid:** [1–2 lauset]
+**Peamine leid:** Linnanimedes oli 54 kirjaviisi 12 linna kohta; pärast standardiseerimist on linnad ühtsed.
 
-**Soovitus:** [1 lause]
+**Soovitus:** Käsitleda duplikaatsed e-postid ja puuduvad väärtused enne, kui klientide andmeid analüüsis kasutatakse.
 
 ### 3.3 Products – tooteandmete puhastamine
 
