@@ -108,10 +108,10 @@ Kõik muudatused tehti **ainult testkoopiates** (`sales_test`, `customers_test`,
 
 **Mida see osakonnale tähendab:** tootekataloogis oli 12 duplikaatset toodet, tegelik toodete arv on 350, mitte 362.
 
-**Teiselt meeskonnalt:** [Maarja täidab pärast teise meeskonna päringu kontrolli]
+**Teiselt meeskonnalt:**  Klienditeenindus – e-posti aadresside kontroll. Enne 2770, pärast 2640. Kontrollisin päringut oma `customers_test` tabelis ja sain täpselt samad tulemused. Tulemus: sama.
 
 ### Kaizen (nano-parendus järgmiseks nädalaks)
-[1 lause]
+Järgmisel nädalal võiks enne andmete analüüsimist teha kiire kontroll, et duplikaadid ja puuduvad väärtused saaksid kohe märgatud.
 
 ## 5. Team Presentation
 
