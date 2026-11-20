@@ -91,14 +91,15 @@ Kõik muudatused tehti **ainult testkoopiates** (`sales_test`, `customers_test`,
 ### Suurim üllatus
 12 toodet, mida pole kordagi müüdud (Roll D), on samad 12 duplikaattoodet (ID-d 1351–1362), mille leidis Roll C. Duplikaadid said uued ID-d, seepärast neile müüke ei viita – kaks eri kontrolli kinnitasid sama leidu.
 
+Kolmandik käibest oli duplikaadid: müügitulu 4 374 231 € → 2 909 178 € pärast duplikaatide eemaldamist.
+
 ### Soovitus Toomasele
-1. [ ]
-2. [ ]
-3. [ ]
+1. Kontrollida 8 kahjumiga hinnaga toodet enne marginaalide analüüsi
+2. Kontrollida 664 müüki, mille summa ei klapi hinna ja kogusega
 
 ### Milliseid andmeid meil puudus?
-1. [ ]
-2. [ ]
+1. 50 kuupäeva on dateeritud pärast 2025-02-28, põhjus teadmata
+2. Klientide lojaalsustasemed 40%, e-postid 12%
 
 ### Osakondade sild
 
