@@ -75,13 +75,14 @@ Kõik muudatused tehti **ainult testkoopiates** (`sales_test`, `customers_test`,
 
 | Kontroll | Leitud | Selgitus |
 |---|---:|---|
-| Müügid olematule kliendile | [ ] | |
-| Müügid olematule tootele | [ ] | |
-| [ ] | [ ] | |
+| Müügid olematule kliendile | 0 | Kõik müügitabeli kliendiviited vastasid olemasolevatele klientidele. |
+| Müügid olematule tootele | 0 | Kõik müügitabeli tooteviited vastasid olemasolevatele toodetele. |
+| Kliendid, kes pole ostnud | 592 | 592 kliendil puudusid ostutehingud. |
+| Tooted, mida pole müüdud | 12 | 12 toodet ei olnud müügitabelis kordagi esindatud. |
 
-**Peamine leid:** [1–2 lauset]
+**Peamine leid:** Müügitabeli kliendi- ja tooteviited olid korras, kuid 592 klienti polnud kunagi ostnud ning 12 toodet polnud kordagi müüdud. Need tulemused vajavad ärilist ülevaatamist kuid ei tähenda automaatselt vigaseid andmeid.
 
-**Soovitus:** [1 lause]
+**Soovitus:** Soovitan üle vaadata ostuta kliendid ja müümata tooted ning hinnata, kas nende kirjete puhul on vaja midagi muuta või on tegemist tavapärase äritegevusega.
 
 ## 4. Team Synthesis – ühine kokkuvõte
 
@@ -123,7 +124,7 @@ Iga liikme isiklikus portfoolios on tema puhastamisskript (`week2_[domeen]_clean
 - **Roll A – [nimi]:** [GitHubi link]
 - **Roll B – [nimi]:** [GitHubi link]
 - **Roll C – Sigrid:** [GitHubi portfoolio](https://github.com/15sigrid/data-analyst-portfolio/tree/main/week-2)
-- **Roll D – [nimi]:** [GitHubi link]
+- **Roll D – Maarja:** [GitHubi link](https://github.com/maarjavalmas/daca-portfoolio/tree/main/week-2)
 
 ## 7. Kasutatud tööriistad
 
