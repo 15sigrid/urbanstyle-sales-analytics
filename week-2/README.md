@@ -13,7 +13,7 @@ Kõik muudatused tehti **ainult testkoopiates** (`sales_test`, `customers_test`,
 | Domeen | Ridu enne | Leitud probleeme | Ridu pärast puhastamist | Vastutaja |
 |---|---:|---:|---:|---|
 | Sales | 15 234 | 6 653 | 10 118 | Marleen (Roll A) |
-| Customers | 3 150 | 2 022 | 3 150 | Marje (Roll B) |
+| Customers | 3 150 | 2 300 | 3 150 | Marje (Roll B) |
 | Products | 362 | 38 | 350 | Sigrid (Roll C) |
 | Ristvalideerimine | – | 604 | – | Maarja (Roll D) |
 
@@ -40,8 +40,9 @@ Kõik muudatused tehti **ainult testkoopiates** (`sales_test`, `customers_test`,
 
 | Kontroll | Leitud | Selgitus |
 |---|---:|---|
-| Duplikaatsed e-mailid | 130 | Duplikaatsed e-posti aadressid; vajavad edasist käsitlemist |
-| NULL eesnimi / perenimi | 0 | Nimed olemas; standardiseeriti kirjapilt |
+| Duplikaatsed e-mailid | 258 | 128 e-posti aadressi esineb mitmel real; neist 146 rida ilma müügitehinguteta |
+| NULL eesnimi / perenimi | 0 | Nimed olemas |
+| Ühtlustamata ees- / perenimed | 150 | Eesnimed 125, perenimed 25 |
 | Ebajärjekindlad linnanimed | 252 | 54 kirjaviisi → 12 linna |
 | NULL telefon / e-mail | 380 | Puuduv e-posti aadress |
 | NULL loyalty tier | 1 260 | Lojaalsustase teadmata |
